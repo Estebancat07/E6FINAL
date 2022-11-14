@@ -1,0 +1,72 @@
+html{
+    scroll-behavior:smooth;
+    scroll-padding-top: 65px;
+}
+.cardcategory{
+    transition: all 0.3s linear;
+}
+.cardcategory:hover {
+    transform: scale(1.048);
+    transition: all 0.3s ease-in-out;
+  }
+
+  .items li {
+    position: relative;
+    padding: 0;
+}
+
+.items li a::after {
+    content: "";
+    height: 2px;
+    width: 100%;
+    background-color: white;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    transform: scaleX(0);
+    transform-origin: bottom right;
+    transition: transform 0.25s ease;
+}
+
+.items li a:hover::after {
+    transform-origin: bottom left;
+    transform: scaleX(1);
+}
+
+.producs{
+    transition: all 0.3s linear;
+}
+.producs:hover {
+    transform: scale(1.048);
+    transition: all 0.5s ease-in-out;
+  }
+
+  .eginfo img:hover {
+    transform: scale(1.048);
+    transition: all 0.3s ease-in-out;
+  }
+
+
+  .buttoncard:hover {
+    border: solid 2px var(--color3);
+    color:darkslateblue;
+    transition: all 0.2s ease-in;
+    color: #000000;
+    background: #6795d4;
+    border: none;
+    transform: scale(1.1);
+}
+
+
+@keyframes slide-top {
+    from {
+      transform: translateY(-370px);
+    }
+    to {
+      transform: translateY(0);
+    }
+}
+
+#hero{
+    animation: slide-top 1.4s ease-in-out;
+}
