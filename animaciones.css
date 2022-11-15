@@ -58,6 +58,17 @@ html{
 }
 
 
+.btnform:hover {
+  border: solid 2px var(--color3);
+  color:darkslateblue;
+  transition: all 0.2s ease-in;
+  color: #000000;
+  background: #6795d4;
+  border: none;
+  transform: scale(1.1);
+}
+
+
 @keyframes slide-top {
     from {
       transform: translateY(-370px);
@@ -70,3 +81,4 @@ html{
 #hero{
     animation: slide-top 1.4s ease-in-out;
 }
+

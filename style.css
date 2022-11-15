@@ -90,11 +90,6 @@ gap: 30px;
 height: calc(100vh -80px);
 z-index: 2;
 display: none;
-overflow-y: scroll;
-}
-
-.cart::-webkit-scrollbar{
-   
 }
 
     
@@ -548,7 +543,7 @@ border-radius: 10px;
 padding: 10px;
 }
 
-.buttonform{
+.botonformu{
     cursor: pointer;
     width: 70px;
     color:white;
@@ -667,15 +662,27 @@ footer img{
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    gap: 12px;
+    gap: 10px;
     border: 1px solid black;
     padding: 20px;
     height: 250px;
     width: 260px;
-    border-radius: 10px;
-    background-color: ghostwhite;
+    border-radius: 20px;
+    background-color: whitesmoke
     
 }
+
+.namelogin{
+    display: flex;
+    gap: 15px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+   
+}
+
+
+ 
 
 .formulario2{
     font-size: 12px;
@@ -683,13 +690,13 @@ footer img{
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    gap: 12px;
+    gap: 10px;
     border: 1px solid black;
     padding: 20px;
-    height: 420px;
-    width: 260px;
-    border-radius: 10px;
-    background-color: ghostwhite;
+    height: 250x;
+    width: 280px;
+    border-radius: 20px;
+    background-color:whitesmoke
     
 }
 
@@ -698,15 +705,24 @@ footer img{
     width: 120px;
     color:white;
     padding: 10px;
-    border-radius: 15px;
+    border-radius: 10px;
     background-color:#131415;
     display: flex;
     justify-content: center;
 
 }
 
-.input4{
+.input2{
+    
     border-radius: 10px;
-    padding: 12px;
-    width: 220px;
+    padding: 14px;
+    width: 210px;
+}
+
+
+.input4{
+    font-size: 12px;
+    border-radius: 10px;
+    padding: 14px;
+    width: 210px;
 }

@@ -126,8 +126,10 @@ margin-left: 110px;
 }
 
 #hero-log{
-   align-items: flex-end;
-   padding-bottom: 20px;
+   align-items: center;
+   margin-top: 70px;
+   
+   
 }
 
 
@@ -184,4 +186,30 @@ margin: auto;
 .cart-item {
     padding: 20px 5px 20px 5px;
 }
+}
+
+@media (max-width: 313px){
+    .category > h3 {
+        font-size: 13px;
+        font-weight: 400;
+    }
+    .fa-solid{
+        display: none;
+    }
+}
+
+@media (max-width: 270px){
+    #categories-section > div > h2 {
+        font-size: 20px;
+        padding: 60px;
+    }
+    #oferts h2 {
+        font-size: 20px;
+        
+    }
+
+    #contacs h2 {
+        font-size: 20px;
+
+    }
 }
