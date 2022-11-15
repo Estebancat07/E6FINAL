@@ -92,6 +92,11 @@ z-index: 2;
 display: none;
 overflow-y: scroll;
 }
+
+.cart::-webkit-scrollbar{
+    display: none;
+}
+
     
 .cart h2{
     color: #131415;
@@ -645,7 +650,7 @@ footer img{
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 115vh;
+    height: 100vh;
 }
 .cts-log{
     display: flex;
@@ -657,6 +662,7 @@ footer img{
 }
 
 .formulario1{
+    font-size: 12px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -664,14 +670,15 @@ footer img{
     gap: 12px;
     border: 1px solid black;
     padding: 20px;
-    height: 300px;
-    width: 250px;
+    height: 250px;
+    width: 260px;
     border-radius: 10px;
     background-color: ghostwhite;
     
 }
 
 .formulario2{
+    font-size: 12px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -679,8 +686,8 @@ footer img{
     gap: 12px;
     border: 1px solid black;
     padding: 20px;
-    height: 450px;
-    width: 250px;
+    height: 420px;
+    width: 260px;
     border-radius: 10px;
     background-color: ghostwhite;
     

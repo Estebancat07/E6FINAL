@@ -125,6 +125,12 @@ margin-left: 110px;
     display: none;
 }
 
+#hero-log{
+   align-items: flex-end;
+   padding-bottom: 20px;
+}
+
+
 
 }
 
