@@ -641,7 +641,9 @@ footer img{
 
 #hero-log{
     width: 100%;
-    background-image:url(./images/absolutlogin.jpg);
+    background-image:url(/images/alcohol-bar-beer-beverage.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -668,7 +670,7 @@ footer img{
     height: 250px;
     width: 260px;
     border-radius: 20px;
-    background-color: whitesmoke
+    background-color:rgba(255, 255, 255, 0.993)
     
 }
 
