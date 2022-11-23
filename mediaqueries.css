@@ -99,7 +99,7 @@ margin-left: 110px;
     color: rgb(255, 255, 255);
 }
 .cart {
-    top: 109px;
+    top: 114px;
 }
 }
 @media (max-width:870px){
@@ -160,8 +160,8 @@ margin: auto;
     display: none;
 }
 .cart {
-    top: 89px;
-    position: absolute;
+    top: 114px;
+    
 }
 }
 @media (max-width: 372px) {
@@ -189,7 +189,7 @@ margin: auto;
    
     padding: 50px 5px 50px 5px;
     gap: 15px;
-    top: 83px;
+    top: 115px;
 }
 .cart-item {
     padding: 20px 5px 20px 5px;
