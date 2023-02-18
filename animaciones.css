@@ -2,6 +2,7 @@ html{
     scroll-behavior:smooth;
     scroll-padding-top: 65px;
 }
+
 .cardcategory{
     transition: all 0.3s linear;
 }
@@ -46,29 +47,66 @@ html{
     transition: all 0.3s ease-in-out;
   }
 
+  .infolog a:hover{
+    transition: all 0.3s ease-in;
+    color: #000000;
+    background: #8d8d8d;
+    border: none;
+    transform: scale(1.1);
+  }
+
+  .hero-info a:hover{
+    transition: all 0.3s ease-in;
+    color: #000000;
+    background: #8d8d8d;
+    border: none;
+    transform: scale(1.1);
+  }
+
 
   .buttoncard:hover {
-    border: solid 2px var(--color3);
-    color:darkslateblue;
-    transition: all 0.2s ease-in;
+    transition: all 0.3s ease-in;
     color: #000000;
-    background: #6795d4;
+    background: #8d8d8d;
     border: none;
     transform: scale(1.1);
 }
 
 
-.btnform:hover {
-  border: solid 2px var(--color3);
-  color:darkslateblue;
-  transition: all 0.2s ease-in;
+.btnform:hover{
+  transition: all 0.3s ease-in;
   color: #000000;
-  background: #6795d4;
+  background: #8d8d8d;
+  border: none;
+  transform: scale(1.1);
+}
+.botonformu:hover {
+  transition: all 0.3s ease-in;
+  color: #000000;
+  background:#8d8d8d;
   border: none;
   transform: scale(1.1);
 }
 
+.overlay{
+  position: absolute;
+  top: 65px;
+  left: 0;
+  height: 100vh;
+  width: 100%;
+  z-index: 1;
+ 
+  background: rgba(255, 255, 255, 0.05);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  display: none;
 
+}
+
+#carttoggle:checked + .cart{
+  display: flex;
+}
 @keyframes slide-top {
     from {
       transform: translateY(-370px);
