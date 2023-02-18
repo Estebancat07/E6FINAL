@@ -90,14 +90,13 @@ html{
 
 .overlay{
   position: absolute;
-  top: 65px;
+  top: 5px;
   left: 0;
   height: 100vh;
   width: 100%;
   z-index: 1;
- 
-  background: rgba(255, 255, 255, 0.05);
-  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  background: rgba(102, 102, 102, 0.05);
+  box-shadow:linear-gradient(to right, #d31027, #ea384d);
   backdrop-filter: blur(5px);
   -webkit-backdrop-filter: blur(5px);
   display: none;
@@ -125,13 +124,10 @@ html{
   top: 65px;
   left: 0;
   height: 100vh;
-  width: 100%;
+  width: 100vw;
   z-index: 1;
- 
-  background: rgba(255, 255, 255, 0.05);
-  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
-  backdrop-filter: blur(5px);
-  -webkit-backdrop-filter: blur(5px);
+  backdrop-filter: blur(3px);
+  -webkit-backdrop-filter: blur(2px);
   display: none;
 }
 

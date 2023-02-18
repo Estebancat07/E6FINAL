@@ -94,14 +94,13 @@ background-color: gainsboro;
 display: flex;
 flex-direction: column;
 gap: 30px;
-height: calc(140vh -80px);
-z-index: 2;
-display: none;
+height: calc(100vh -80 px);
+overflow-y: scroll auto;
+  z-index: 2;
+  transform: translate(200%);
+  transition: all 0.5s cubic-bezier(0.92, 0.01, 0.35, 0.99);
 }
 
-.cart::-webkit-scrollbar {
-    display: none;
-  }
     
 .cart h2{
     color: #131415;
@@ -222,7 +221,8 @@ display: none;
 }
 
 #carttoggle:checked + .cart{
-    display: flex
+    transform: translate(0%);
+    transition: all 0.5s cubic-bezier(0.92, 0.01, 0.35, 0.99);
 }
 
 .fa-solid{
