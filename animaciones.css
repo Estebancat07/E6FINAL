@@ -120,3 +120,53 @@ html{
     animation: slide-top 1.4s ease-in-out;
 }
 
+.overlay {
+  position: absolute;
+  top: 65px;
+  left: 0;
+  height: 100vh;
+  width: 100%;
+  z-index: 1;
+ 
+  background: rgba(255, 255, 255, 0.05);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  display: none;
+}
+
+#carttoggle:checked ~ .overlay {
+  display: block;
+}
+
+#menu-toggle:checked ~ .overlay {
+  display: block;
+}
+
+
+
+
+@keyframes fade {
+  from {
+      opacity: 0;
+  }
+  to {
+      opacity: 1;
+  }
+}
+
+@keyframes slide-up {
+  from {
+      transform: translateY(100px);
+  } to {
+      transform: translateY(0);
+  }
+}
+
+@keyframes slide-right {
+  from {
+      transform: translateX(100px);
+  } to {
+      transform: translateX(0);
+  }
+}
