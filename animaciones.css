@@ -34,10 +34,10 @@ html{
     transform: scaleX(1);
 }
 
-.producs{
+.producs img{
     transition: all 0.3s linear;
 }
-.producs:hover {
+.producs img:hover {
     transform: scale(1.048);
     transition: all 0.5s ease-in-out;
   }
@@ -90,7 +90,7 @@ html{
 
 .overlay{
   position: absolute;
-  top: 5px;
+  top: 100px;
   left: 0;
   height: 100vh;
   width: 100%;
@@ -119,17 +119,7 @@ html{
     animation: slide-top 1.4s ease-in-out;
 }
 
-.overlay {
-  position: absolute;
-  top: 65px;
-  left: 0;
-  height: 100vh;
-  width: 100vw;
-  z-index: 1;
-  backdrop-filter: blur(3px);
-  -webkit-backdrop-filter: blur(2px);
-  display: none;
-}
+
 
 #carttoggle:checked ~ .overlay {
   display: block;
