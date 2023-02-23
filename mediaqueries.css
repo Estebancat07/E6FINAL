@@ -1,5 +1,109 @@
+@media (max-width: 1075px) {
+  .hero-info {
+    width: auto;
+  }
+  .hero-info h1 {
+    font-size: 35px;
+  }
+}
+
+
 @media (max-width: 992px) {
     .navbar {
-      gap: 10px;
+      gap: 5px;
     }
+   .items {
+     position: absolute;
+     top: 99px;
+     left: 5%;
+     right: 5%;
+     width: 90%;
+     flex-direction: column;
+     background-color: rgba(0, 0, 0, 0.7);
+     border: 2px solid #ffffff;
+     border-top: 0px;
+     border-radius: 0px 0px 15px 15px;
+     align-items: flex-start;
+     padding: 45px 30px;
+     gap: 25px;
+     z-index: 2;
+     display: none;
+   }
+   .items a {
+    font-size: 18px;
+    color: #ffffff;
+  }
+   .menu-label {
+    display: flex;
+    cursor: pointer;
+    order: 2;
+   
+
+}
+   .menu-label img {
+    height: 15px;
+    width: 15px;
+
+    
+}
+   #menu-toggle:checked + .items {
+    display: flex;
+   }
   } 
+
+ 
+  @media (max-width: 610px) {
+    .formulario1 {
+        height: 280px;
+        padding: 20px;
+    }
+    .formulario2 {
+        padding: 20px;
+    }
+    #hero-log {
+        height: 1000px;
+    }
+    .cts-log {
+        gap: 20px;
+    }
+
+}
+
+  @media (max-width: 600px) {
+    .hero-info h1 {
+      font-size:25px;
+    }
+    .hero-info p {
+      font-size: 15px;
+    }
+    .dringinfo {
+      display: none;
+    }
+    #hero {
+      background-image:url(./images/absolutlogin.jpg);
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+    .explore, .terminos {
+      display: none;
+    }
+    .mapa {
+      display: none;
+    }
+    
+  }
+  @media (max-width: 315px) {
+    .producs { 
+      width: 270px;
+    }
+    .producs img {
+      width: 250px;
+    }
+    .eginfo {
+      width: 250px;
+    }
+    #contacs h2 {
+      font-size: 20px;
+    }
+    
+  }
