@@ -10,7 +10,7 @@
 
 @media (max-width: 992px) {
     .navbar {
-      gap: 5px;
+      gap: 15px;
     }
    .items {
      position: absolute;
@@ -92,7 +92,8 @@
     }
     
   }
-  @media (max-width: 315px) {
+  @media (max-width: 320px) {
+
     .producs { 
       width: 270px;
     }
@@ -105,5 +106,7 @@
     #contacs h2 {
       font-size: 20px;
     }
-    
+    .cart{
+      width: 320px;
+    }
   }

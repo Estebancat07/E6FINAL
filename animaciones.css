@@ -88,6 +88,13 @@ html{
   transform: scale(1.1);
 }
 
+.btn-add:hover{
+  transition: all 0.3s ease-in;
+  color: #000000;
+  background:#8d8d8d;
+  border: none;
+  transform: scale(1.1);
+}
 .overlay{
   position: absolute;
   top: 100px;
